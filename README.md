@@ -1,42 +1,69 @@
-PratibhaKhoj
-
+# PratibhaKhoj
 AI-based Sports Talent Assessment App
 
-Overview
+---
 
-PratibhaKhoj is a mobile application designed to help identify sports talent using standard fitness tests and AI-assisted movement analysis.
-It aims to make athlete assessment more fair, structured, and accessible, especially at the grassroots level.
+## Problem
 
-What Problem It Solves
+Sports talent identification is still mostly manual and subjective.
+Many athletes miss opportunities due to lack of standardized testing and limited access to assessment camps.
 
-Traditional talent identification often depends on manual observation and limited trials.
-This can lead to inconsistency and missed opportunities for deserving athletes.
+---
 
-Solution
+## Solution
 
-The app allows athletes to perform basic fitness tests using a smartphone camera.
-MediaPipe-based pose analysis (planned integration) is used to analyze movement, while the current version demonstrates the complete assessment flow using mock AI logic.
+PratibhaKhoj is a mobile application that conducts standard fitness tests using a smartphone camera
+and provides clear, test-specific performance insights.
 
-Athletes receive instant results, clear performance insights, and ranking-based feedback.
+MediaPipe-based pose analysis is planned for accurate movement tracking.
+The current version demonstrates the full assessment flow using mock AI logic.
 
-Features
+---
 
-Athlete profile creation
+## Supported Tests
 
-Fitness tests:
+- Push-ups
+- Sit-ups
+- Shuttle Run
+- Vertical Jump
 
-Push-ups
+Each test is evaluated using sport-specific criteria.
 
-Sit-ups
+---
 
-Shuttle Run
+## Features
 
-Vertical Jump
+- Athlete profile creation
+- Camera-based test execution
+- Instant result after test completion
+- Detailed dashboard with performance metrics
+- Comparison with top performers
+- Ranking and percentile view
+- Offline-friendly design
 
-Camera-based movement tracking
+---
 
-Test-specific scoring and analysis
+## Technology Stack
 
-Ranking and performance dashboard
+- React Native (Expo)
+- Expo Camera
+- MediaPipe (planned)
 
-Offline-friendly and easy to use
+---
+
+## Project Status
+
+The project is demo-ready with complete UI flow and mock AI logic.
+The architecture supports future AI integration.
+
+---
+
+## Use Case
+
+- School and college sports screening
+- Grassroots talent identification
+- Pre-selection assessment before sports camps
+
+---
+
+Developed as an academic innovation project focused on digital sports assessment.

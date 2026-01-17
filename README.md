@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+PratibhaKhoj
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AI-based Sports Talent Assessment App
 
-## Get started
+Overview
 
-1. Install dependencies
+PratibhaKhoj is a mobile application designed to help identify sports talent using standard fitness tests and AI-assisted movement analysis.
+It aims to make athlete assessment more fair, structured, and accessible, especially at the grassroots level.
 
-   ```bash
-   npm install
-   ```
+What Problem It Solves
 
-2. Start the app
+Traditional talent identification often depends on manual observation and limited trials.
+This can lead to inconsistency and missed opportunities for deserving athletes.
 
-   ```bash
-   npx expo start
-   ```
+Solution
 
-In the output, you'll find options to open the app in a
+The app allows athletes to perform basic fitness tests using a smartphone camera.
+MediaPipe-based pose analysis (planned integration) is used to analyze movement, while the current version demonstrates the complete assessment flow using mock AI logic.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Athletes receive instant results, clear performance insights, and ranking-based feedback.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Features
 
-## Get a fresh project
+Athlete profile creation
 
-When you're ready, run:
+Fitness tests:
 
-```bash
-npm run reset-project
-```
+Push-ups
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Sit-ups
 
-## Learn more
+Shuttle Run
 
-To learn more about developing your project with Expo, look at the following resources:
+Vertical Jump
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Camera-based movement tracking
 
-## Join the community
+Test-specific scoring and analysis
 
-Join our community of developers creating universal apps.
+Ranking and performance dashboard
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Offline-friendly and easy to use
